@@ -1,0 +1,14 @@
+extends layout
+
+block main
+    - function formatDate(str) {
+    -    var date = new Date(str)
+    -    return date.toLocaleDateString('en-US', {month: 'long', day:'numeric', year:'numeric'})
+    -}
+    div.blog
+        each blog in blogs
+            article
+                header
+                    h4= blog.data.title
+                    div.date= formatDate(blog.data.createdAt)
+                p.content= blog.content

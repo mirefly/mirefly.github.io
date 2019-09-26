@@ -1,0 +1,38 @@
+extends layout
+
+mixin commitList(repo)
+  - commits = commitsByRepo[repo]
+  -function formatDate(str) {
+  -  var date = new Date(str)
+  -  return date.toLocaleDateString('en-US', {month: 'short', day: 'numeric'})
+  -}
+  -function asterisk2br(str) {
+  -  return str.replace(/\*/g, '<br />\*')
+  -}
+  ul
+    each commit in commits
+      li
+        a(href=commit.htmlUrl) #{commit.sha.slice(0, 6)}
+        p.date #{formatDate(commit.date)}
+        p.message!= asterisk2br(commit.message)
+
+block main
+  section
+    h4
+      a(href='https://github.com/mirefly/mysite') mirefly/mysite
+
+  section
+    h4
+      a(href='https://github.com/mozilla/addons-code-manager') mozilla/addons-code-manager
+    +commitList('mozilla/addons-code-manager')
+
+  section
+    h4
+      a(href='https://github.com/mozilla/addons-frontend') mozilla/addons-frontend
+    +commitList('mozilla/addons-frontend')
+
+  section
+    h4
+      a(href='https://github.com/mozilla/fxa') mozilla/fxa
+    +commitList('mozilla/fxa')
+

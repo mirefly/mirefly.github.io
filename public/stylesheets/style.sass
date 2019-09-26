@@ -1,0 +1,93 @@
+$primary: #1c825d
+$monofonts: Consolas, DejaVu Sans Mono, Monaco, monospace
+
+$smallWidth: 400px
+
+html
+  box-sizing: border-box
+
+@media only screen and (max-width : $smallWidth)
+  html
+    font-size: 90%
+
+body
+  -webkit-text-size-adjust: none
+  padding: 2.5rem 0 0 10%
+  @media screen and (max-width: $smallWidth)
+    padding: 1rem 1rem 0 1rem
+
+  font: 1rem $monofonts
+  
+a
+  text-decoration: none
+
+p
+  color: #505050
+
+h1
+  font-family: $monofonts
+  font-size: 3rem
+  letter-spacing: 0rem
+  color: $primary
+  margin: 0rem
+  &::after
+    content: attr(tagline)
+    font-family: $monofonts
+    font-weight: bold
+    font-size: 1rem
+    letter-spacing: 0rem
+    margin-left: 1rem
+    white-space: nowrap
+
+h4
+  color: $primary
+  font-size: 1.3rem
+  margin: 0.5rem 0 0.5rem 0
+
+a
+  color: $primary
+
+nav
+  ul
+    list-style: none
+    padding: 0px
+    li
+      display: inline
+      margin-right: 1.5rem
+    a.active
+      color: $primary
+      font-size: 2rem
+    a
+      color: grey
+      font-size: 1.2rem
+
+main
+  ul
+    list-style: none
+    margin: 0
+    padding-left: 1rem
+    li
+      display: flex
+      padding-top: 0.2rem
+      a
+        font-size: 1rem
+        font-weight: bold
+      p.date
+        white-space: nowrap
+        min-width: 3.5rem
+      p
+        display: inline-block
+        padding: 0 0 0 1rem
+        margin: 0px
+
+  p.about
+    white-space: nowrap
+ 
+  div.blog
+    div.date
+      display: inline
+      background-color: silver
+      color: white
+      padding: 0 0.3rem
+      border-radius: 0.2rem
+    p.content
