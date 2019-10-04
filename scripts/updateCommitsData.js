@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
@@ -47,17 +48,17 @@ async function run() {
   try {
     for (const repo of repos) {
       const data = await fetchCommits(makeQuery(repo));
-      rv[repo] = data.sort(function (a, b) {
-        return (a.date < b.date) ? 1 : -1
+      rv[repo] = data.sort(function(a, b) {
+        return a.date < b.date ? 1 : -1;
       });
     }
 
     fs.writeFileSync(OUTPUT_PATH, JSON.stringify(rv, null, 2));
 
-    console.log('success');
+    console.log(`Success at ${new Date()}`);
   } catch (e) {
     console.log(e);
-    console.log('failed and exit.....');
+    console.log(`Fail and exit at ${new Date()}`);
   }
 }
 

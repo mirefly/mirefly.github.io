@@ -1,6 +1,12 @@
 {
   "mozilla/addons-code-manager": [
     {
+      "sha": "431190aa67b63e6075cf25471efb11a1f126ac5f",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/431190aa67b63e6075cf25471efb11a1f126ac5f",
+      "date": "2019-10-03T13:07:43.000-06:00",
+      "message": "Preload the next file in browse mode (#1061)"
+    },
+    {
       "sha": "fc630f44f02ea016d525c623fa8516176afd8f3c",
       "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/fc630f44f02ea016d525c623fa8516176afd8f3c",
       "date": "2019-09-27T15:39:01.000-06:00",
