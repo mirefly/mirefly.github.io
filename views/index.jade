@@ -16,23 +16,24 @@ mixin commitList(repo)
         p.date #{formatDate(commit.date)}
         p.message!= asterisk2br(commit.message)
 
+mixin repoNameAndCommitsNum(repo)
+    h4
+        a(href='https://github.com/'+repo) #{repo} (#{commitsByRepo[repo].length} PRs)
+
 block main
   section
     h4
       a(href='https://github.com/mirefly/mysite') This website
 
   section
-    h4
-      a(href='https://github.com/mozilla/addons-code-manager') mozilla/addons-code-manager
+    +repoNameAndCommitsNum('mozilla/addons-code-manager')
     +commitList('mozilla/addons-code-manager')
 
   section
-    h4
-      a(href='https://github.com/mozilla/addons-frontend') mozilla/addons-frontend
+    +repoNameAndCommitsNum('mozilla/addons-frontend')
     +commitList('mozilla/addons-frontend')
 
   section
-    h4
-      a(href='https://github.com/mozilla/fxa') mozilla/fxa
+    +repoNameAndCommitsNum('mozilla/fxa')
     +commitList('mozilla/fxa')
 
