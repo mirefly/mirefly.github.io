@@ -161,6 +161,12 @@
   ],
   "mozilla/fxa": [
     {
+      "sha": "44412c2d0912529575fd42813b1d1bb7fa5654de",
+      "htmlUrl": "https://github.com/mozilla/fxa/commit/44412c2d0912529575fd42813b1d1bb7fa5654de",
+      "date": "2019-10-07T11:32:41.000-06:00",
+      "message": "fix(oauth): refuse default JWT signing key"
+    },
+    {
       "sha": "2b164992a93b39a5f3a7509d1b99566ba5e80c13",
       "htmlUrl": "https://github.com/mozilla/fxa/commit/2b164992a93b39a5f3a7509d1b99566ba5e80c13",
       "date": "2019-08-25T14:42:16.000-06:00",

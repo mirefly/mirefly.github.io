@@ -4,6 +4,7 @@ module.exports = {
       name: 'mysite',
       script: 'npm',
       args: ['run', 'prod'],
+      watch: ['.']
     },
     {
       name: 'updateCommitsData',
