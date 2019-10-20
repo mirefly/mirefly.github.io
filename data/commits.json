@@ -1,6 +1,12 @@
 {
   "mozilla/addons-code-manager": [
     {
+      "sha": "be72debbfb3790028cecbb3bad7b142ea4b0e5d7",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/be72debbfb3790028cecbb3bad7b142ea4b0e5d7",
+      "date": "2019-10-18T09:37:45.000-06:00",
+      "message": "Preload next diff in compare mode (#1085)"
+    },
+    {
       "sha": "431190aa67b63e6075cf25471efb11a1f126ac5f",
       "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/431190aa67b63e6075cf25471efb11a1f126ac5f",
       "date": "2019-10-03T13:07:43.000-06:00",
