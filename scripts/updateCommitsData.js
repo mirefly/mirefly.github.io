@@ -14,6 +14,7 @@ repos = [
   'mozilla/addons-code-manager',
   'mozilla/addons-frontend',
   'mozilla/fxa',
+  'mozilla/application-services',
 ];
 
 async function fetchCommits(query) {
