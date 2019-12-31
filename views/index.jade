@@ -18,7 +18,9 @@ mixin commitList(repo)
 
 mixin repoNameAndCommitsNum(repo)
     h4
-        a(href='https://github.com/'+repo) #{repo} (#{commitsByRepo[repo].length} PRs)
+        a(href='https://github.com/'+repo) #{repo}
+        &nbsp
+        a(href='https://github.com/'+repo+'/commits?author=mirefly') (#{commitsByRepo[repo].length} PRs)
 
 block main
   section

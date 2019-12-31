@@ -1,6 +1,78 @@
 {
   "mozilla/addons-code-manager": [
     {
+      "sha": "ee7d455dbe30a6796387f6b284548a0c0c2716d2",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/ee7d455dbe30a6796387f6b284548a0c0c2716d2",
+      "date": "2019-12-20T11:10:33.000-07:00",
+      "message": "Reload page contents for Browse when navigating with back/forwa… (#1349)"
+    },
+    {
+      "sha": "99c00f4395e2e1176457b94b227e9471ab0ad8f5",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/99c00f4395e2e1176457b94b227e9471ab0ad8f5",
+      "date": "2019-12-20T01:52:51.000-07:00",
+      "message": "Do not throw an error when clicking empty lines in code overview (#1364)"
+    },
+    {
+      "sha": "cc8b34a2a94bef58e4cb0c547cfed59b634783b7",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/cc8b34a2a94bef58e4cb0c547cfed59b634783b7",
+      "date": "2019-12-19T02:41:14.000-07:00",
+      "message": "Fix VersionChooser story (#1360)"
+    },
+    {
+      "sha": "68ba6c14b298287c738d46fafd52d8908b6a68b4",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/68ba6c14b298287c738d46fafd52d8908b6a68b4",
+      "date": "2019-12-16T13:47:56.000-07:00",
+      "message": "Remove the readOnly prop in Comment component (#1335)\n\n* Remove readOnly prop in Comment\r\n\r\n* Add setUpStoreAndRender"
+    },
+    {
+      "sha": "5444b4e9b4deb45881538c58f56841fd8ea5ef0b",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/5444b4e9b4deb45881538c58f56841fd8ea5ef0b",
+      "date": "2019-12-14T08:29:49.000-07:00",
+      "message": "Do not change path info when loading a base version (#1317)\n\n* Do not change path info when loading a base verison\r\n\r\n* Add helper dispatchLoadVersionInfo"
+    },
+    {
+      "sha": "fbd1c848f71717e61341180318c21b4eba6c0eb8",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/fbd1c848f71717e61341180318c21b4eba6c0eb8",
+      "date": "2019-12-07T13:24:09.000-07:00",
+      "message": "Reload a version and reset file tree when changing base version number (#1310)"
+    },
+    {
+      "sha": "cb35fdfbca9619236e2f988178c17826750dce36",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/cb35fdfbca9619236e2f988178c17826750dce36",
+      "date": "2019-12-03T15:35:16.000-07:00",
+      "message": "Add edit comment button (#1241)"
+    },
+    {
+      "sha": "87d1f9df6767ad1640c41727bfd29ced474149a4",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/87d1f9df6767ad1640c41727bfd29ced474149a4",
+      "date": "2019-11-27T16:10:24.000-07:00",
+      "message": "Copy selectedPath and visibleSelectedPath out of version object (#1259)"
+    },
+    {
+      "sha": "f1ad515225dee0f9783dbdb0d66cf4fa0f9dbdf8",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/f1ad515225dee0f9783dbdb0d66cf4fa0f9dbdf8",
+      "date": "2019-11-18T10:50:16.000-07:00",
+      "message": "Change FileTree to use expandedPaths not tied to a version (#1204)"
+    },
+    {
+      "sha": "fc5611a9ee5fca206c9d7514f130655b0445a1ff",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/fc5611a9ee5fca206c9d7514f130655b0445a1ff",
+      "date": "2019-11-11T13:36:54.000-07:00",
+      "message": "Add comments story for confirming discard (#1228)"
+    },
+    {
+      "sha": "01249f2a68ad02b9c5b7fb8bf5678c83c2d301ce",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/01249f2a68ad02b9c5b7fb8bf5678c83c2d301ce",
+      "date": "2019-11-08T14:38:38.000-07:00",
+      "message": "Add a button to cancel entering comment (#1213)"
+    },
+    {
+      "sha": "e6c8f62202860ee0de535dee337722630b609194",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/e6c8f62202860ee0de535dee337722630b609194",
+      "date": "2019-10-29T15:28:52.000-06:00",
+      "message": "Scroll global linter message into view (#1154)\n\n* Pass location.key to GlobalLinterMessages component\r\n\r\n* Update src/components/CodeView/index.tsx\r\n\r\nCo-Authored-By: Kumar McMillan <kumar.mcmillan@gmail.com>"
+    },
+    {
       "sha": "be72debbfb3790028cecbb3bad7b142ea4b0e5d7",
       "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/be72debbfb3790028cecbb3bad7b142ea4b0e5d7",
       "date": "2019-10-18T09:37:45.000-06:00",
