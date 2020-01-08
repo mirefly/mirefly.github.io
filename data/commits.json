@@ -1,6 +1,12 @@
 {
   "mozilla/addons-code-manager": [
     {
+      "sha": "6b3019521029d2fcd123cb97bfa21b8327f442d7",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/6b3019521029d2fcd123cb97bfa21b8327f442d7",
+      "date": "2020-01-06T11:30:22.000-07:00",
+      "message": "Wrap long lines in Browse (#1376)\n\n* Wrap long lines in Browse\r\n\r\n* Wrap long unbroken line of minified code I1284"
+    },
+    {
       "sha": "ee7d455dbe30a6796387f6b284548a0c0c2716d2",
       "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/ee7d455dbe30a6796387f6b284548a0c0c2716d2",
       "date": "2019-12-20T11:10:33.000-07:00",
