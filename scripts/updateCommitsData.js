@@ -17,6 +17,7 @@ function makeQuery(repo) {
 repos = [
   'mozilla/addons-code-manager',
   'mozilla/addons-frontend',
+  'mozilla/addons-server',
   'mozilla/fxa',
   'mozilla/application-services',
 ];

@@ -243,6 +243,20 @@
       "message": "Fix #5081, ToolTip display in CollectionManager (#7268)"
     }
   ],
+  "mozilla/addons-server": [
+    {
+      "sha": "278f149f74dedbf0df69f1e9c5e818f73b6e1fed",
+      "htmlUrl": "https://github.com/mozilla/addons-server/commit/278f149f74dedbf0df69f1e9c5e818f73b6e1fed",
+      "date": "2020-01-05T00:54:01.000-07:00",
+      "message": "Add link to developer agreement page in corresponding API error"
+    },
+    {
+      "sha": "f838f6f704a01b4e8704f8ff9b359040d9038316",
+      "htmlUrl": "https://github.com/mozilla/addons-server/commit/f838f6f704a01b4e8704f8ff9b359040d9038316",
+      "date": "2020-01-03T14:46:58.000-07:00",
+      "message": "Fix pytest.org link in docs"
+    }
+  ],
   "mozilla/fxa": [
     {
       "sha": "dd00d087227bac0d19b701c829f45822ab26d7cf",
