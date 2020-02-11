@@ -1,7 +1,8 @@
 extends layout
 
 mixin commitList(repo)
-  - commits = commitsByRepo[repo]
+  -var MAX_COMMITS = 15
+  -var commits = commitsByRepo[repo]
   -function formatDate(str) {
   -  var date = new Date(str)
   -  return date.toLocaleDateString('en-US', {month: 'short', day: 'numeric'})
@@ -9,18 +10,23 @@ mixin commitList(repo)
   -function asterisk2br(str) {
   -  return str.replace(/\*/g, '<br />\*')
   -}
-  ul
-    each commit in commits
-      li
+  -var classname = 'ul'+Math.random().toString(36).substring(2)
+
+  ul(class=classname)
+    each commit, index in commits
+      li(style=index > MAX_COMMITS ? 'display:none':'')
         a(href=commit.htmlUrl) #{commit.sha.slice(0, 6)}
         p.date #{formatDate(commit.date)}
         p.message!= asterisk2br(commit.message)
+    if commitsByRepo[repo].length > MAX_COMMITS
+      li
+        a(onclick='showAll(this, "#{classname}")' style='cursor: pointer') More...
 
 mixin repoNameAndCommitsNum(repo)
-    h4
-        a(href='https://github.com/'+repo) #{repo}
-        &nbsp
-        a(href='https://github.com/'+repo+'/commits?author=mirefly') (#{commitsByRepo[repo].length} PRs)
+  h4
+    a(href='https://github.com/'+repo) #{repo}
+    &nbsp
+    a(href='https://github.com/'+repo+'/commits?author=mirefly') (#{commitsByRepo[repo].length} PRs)
 
 block main
   section

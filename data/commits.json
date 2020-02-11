@@ -1,6 +1,54 @@
 {
   "mozilla/addons-code-manager": [
     {
+      "sha": "9e6e562af96815dd7ad735637d84eb1cadb00cd5",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/9e6e562af96815dd7ad735637d84eb1cadb00cd5",
+      "date": "2020-01-29T15:09:45.000+01:00",
+      "message": "Clean up compare page tests (#1415)"
+    },
+    {
+      "sha": "58a398118a5c979ec53c12581689d776f8cd3838",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/58a398118a5c979ec53c12581689d776f8cd3838",
+      "date": "2020-01-29T14:59:48.000+01:00",
+      "message": "Show a message in the info panel for deleted files (#1414)"
+    },
+    {
+      "sha": "08242f6872a469bec6f01c3a02c1adc2667f7468",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/08242f6872a469bec6f01c3a02c1adc2667f7468",
+      "date": "2020-01-24T07:58:22.000-07:00",
+      "message": "Do not fetch deleted files in Compare mode (#1409)\n\n* Do not fetch deleted files in Compare mode\r\n\r\n* Address comments"
+    },
+    {
+      "sha": "22e7dbe7bb45042195fce57a3c3bc9f35b156bec",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/22e7dbe7bb45042195fce57a3c3bc9f35b156bec",
+      "date": "2020-01-20T13:15:54.000-07:00",
+      "message": "Enable keyboard shortcuts 'n'/'p' to go to next/previous file i… (#1392)\n\n* Support shortcuts 'n' and 'p' in Browse\r\n\r\n* Add getKey and isInBrowseMode, then clean up"
+    },
+    {
+      "sha": "23986724384b794d8d5f3a0cbb9146bd4ac3a1b4",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/23986724384b794d8d5f3a0cbb9146bd4ac3a1b4",
+      "date": "2020-01-17T07:23:44.000-07:00",
+      "message": "Refactor to avoid hardcoding changeType (#1388)"
+    },
+    {
+      "sha": "6285899a0d56c1384eb829a65edc1f6ca67418b3",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/6285899a0d56c1384eb829a65edc1f6ca67418b3",
+      "date": "2020-01-15T12:47:05.000-07:00",
+      "message": "Store sha256 in version file (#1394)"
+    },
+    {
+      "sha": "02b996acb14005b6fbff8e6527538e956ae4422c",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/02b996acb14005b6fbff8e6527538e956ae4422c",
+      "date": "2020-01-09T10:27:30.000-07:00",
+      "message": "Ensure file tree list auto-scrolls only when needed (#1382)"
+    },
+    {
+      "sha": "1666ca4e0018889d97a984c02462e9530fc10428",
+      "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/1666ca4e0018889d97a984c02462e9530fc10428",
+      "date": "2020-01-08T15:20:47.000-07:00",
+      "message": "Update side panels in compare when navigating back and forward (#1380)"
+    },
+    {
       "sha": "6b3019521029d2fcd123cb97bfa21b8327f442d7",
       "htmlUrl": "https://github.com/mozilla/addons-code-manager/commit/6b3019521029d2fcd123cb97bfa21b8327f442d7",
       "date": "2020-01-06T11:30:22.000-07:00",
@@ -189,6 +237,12 @@
   ],
   "mozilla/addons-frontend": [
     {
+      "sha": "e439a120a4302ae385a35293c2ca06b7b72a5a38",
+      "htmlUrl": "https://github.com/mozilla/addons-frontend/commit/e439a120a4302ae385a35293c2ca06b7b72a5a38",
+      "date": "2020-02-10T07:32:11.000-07:00",
+      "message": "Highlight the addon title when focused (#9147)"
+    },
+    {
       "sha": "fa9c74e2501bd4a2e4bf6841c4b52b66a757dc9c",
       "htmlUrl": "https://github.com/mozilla/addons-frontend/commit/fa9c74e2501bd4a2e4bf6841c4b52b66a757dc9c",
       "date": "2019-05-02T17:09:01.000+08:00",
@@ -244,6 +298,24 @@
     }
   ],
   "mozilla/addons-server": [
+    {
+      "sha": "f91f4bbfb50574a78098116e691748fd24c5d17b",
+      "htmlUrl": "https://github.com/mozilla/addons-server/commit/f91f4bbfb50574a78098116e691748fd24c5d17b",
+      "date": "2020-02-03T11:22:09.000-07:00",
+      "message": "Return 404 if there is no file validation"
+    },
+    {
+      "sha": "a55fecd85294839228d0830c9aa5f0d12325bd02",
+      "htmlUrl": "https://github.com/mozilla/addons-server/commit/a55fecd85294839228d0830c9aa5f0d12325bd02",
+      "date": "2020-01-24T14:47:10.000-07:00",
+      "message": "Fix entry depth of parent folders for deleted files"
+    },
+    {
+      "sha": "7e0b7824e909af9b753f24596a341e52dc15a1e7",
+      "htmlUrl": "https://github.com/mozilla/addons-server/commit/7e0b7824e909af9b753f24596a341e52dc15a1e7",
+      "date": "2020-01-13T02:16:02.000-07:00",
+      "message": "fix TestBlockAdminAdd and TestMultiBlockSubmitAdmin (#13230)"
+    },
     {
       "sha": "278f149f74dedbf0df69f1e9c5e818f73b6e1fed",
       "htmlUrl": "https://github.com/mozilla/addons-server/commit/278f149f74dedbf0df69f1e9c5e818f73b6e1fed",

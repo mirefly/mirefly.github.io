@@ -31,3 +31,11 @@ html
 
   main
     block main
+
+  script.
+    var showAll = function(elem, classname) {
+      document.querySelectorAll(`.${classname} li`).forEach(function(item) {
+        item.setAttribute('style', '')
+      })
+      elem.setAttribute('style', 'display: none')
+    }
