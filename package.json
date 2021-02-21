@@ -1,28 +1,19 @@
 {
   "name": "mysite",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www",
-    "prod": "NODE_ENV=product node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "yarn http-server -p 8000"
   },
-  "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "gray-matter": "^4.0.2",
-    "http-errors": "~1.6.3",
-    "jade": "^1.11.0",
-    "markdown-it": "^10.0.0",
-    "morgan": "~1.9.1",
-    "node": "^12.14.0",
-    "node-fetch": "^2.6.0",
-    "node-sass-middleware": "0.11.0",
-    "pm2": "^3.5.2",
-    "query-string": "^6.9.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirefly/mysite.git"
   },
+  "author": "mirefly",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^24.9.0"
+  "dependencies": {
+    "http-server": "^0.12.3"
   }
 }
